@@ -18,10 +18,11 @@ Output: The final output is a series of TAC instructions, which represent the co
 Example
 Input Source Code:
 if (a < b) {
-    c = c + 1;
-} else {
-    exit;
-}
+      c = c + 1;
+    }
+else {
+       exit;
+      }
 
 Generated Intermediate Code:
 IF a < b GOTO L1
@@ -34,5 +35,6 @@ GOTO END_IF
 L2:
 EXIT
 END_IF:
+
 
 Thank you for checking out this project!
